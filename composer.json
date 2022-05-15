@@ -1,0 +1,22 @@
+{
+  "name": "qvers/xliff-analyzer",
+  "description": "Simple xliff files analyzer",
+  "authors": [
+      {
+          "name": "Vladlen Shmelev",
+          "email": "shmelev.dev@gmail.com"
+      }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Qvers\\XliffAnalyzer\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "ext-simplexml": "*",
+    "ext-json": "*"
+  }
+}
